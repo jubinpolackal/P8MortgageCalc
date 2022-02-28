@@ -1,0 +1,42 @@
+.caption {
+  font-size: 1.2rem;
+  color: #96a3ad;
+}
+
+.result-container {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.result-button {
+  z-index: 9;
+}
+
+.mortgage {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 3rem;
+}
+
+.currency {
+  vertical-align: text-top;
+  text-align: right;
+}
+
+.decimal {
+  font-weight: bold;
+  vertical-align: text-top;
+  text-align: left;
+}
+
+.integer {
+  font-size: 2rem;
+}
+
+.month {
+  color: #96a3ad;
+}
